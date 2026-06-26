@@ -152,7 +152,7 @@ export default function Home() {
                 onClick={handleStart}
                 className="mt-10 rounded-full bg-white px-8 py-3 font-semibold text-black"
               >
-                Let's go
+                Let&apos;s go
               </motion.button>
             </motion.div>
           </motion.div>
