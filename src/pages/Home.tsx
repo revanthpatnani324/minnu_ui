@@ -1,18 +1,13 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Mainpage from "../components/Mainpage";
-import { useRouter } from "next/navigation";
 
 export default function Home() {
-  const router = useRouter();
   const [open, setOpen] = useState(false);
 
   const handleStart = () => {
   setOpen(true);
 
-//   setTimeout(() => {
-//     router.push("/Mainpage");
-//   }, 450); // Fold animation complete ayyaka redirect
 };
 
   return (
